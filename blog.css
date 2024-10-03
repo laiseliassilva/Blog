@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3; 
+    color: #333;
+}
+
+header {
+    background-color: #001F3F; 
+    color: white; 
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #001F3F; 
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    background-color: white; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.botao {
+    background-color: #001F3F; 
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding:1px;
+}
+.video-container {   
+    display: flex;  
+    justify-content: center;    
+    margin: 20px 0;}
